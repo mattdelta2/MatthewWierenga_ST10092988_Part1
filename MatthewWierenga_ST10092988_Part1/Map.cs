@@ -184,7 +184,7 @@ namespace MatthewWierenga_ST10092988_Part1
 
                     if (RANDOM_NUMBER_GENERATOR.Next(1, 3) == 1)
                     {
-                        SwampCreature NewEnemy = new SwampCreature(EnemyX, EnemyY, TypeOfTile, "G", 100, 100, 10);
+                        SwampCreature NewEnemy = new SwampCreature(EnemyX, EnemyY, TypeOfTile, "S", 100, 100, 10);
                         ENEMIES.Add(NewEnemy);
                         MAPCONTAINER[EnemyX, EnemyY] = NewEnemy;
                     }
